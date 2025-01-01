@@ -1,17 +1,23 @@
 \documentclass[a4paper]{article}
 \title{Cover}
-\usepackage[left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+\usepackage[left=2cm,right=2cm,top=1cm,bottom=2cm]{geometry}
 \usepackage{fontspec}
 \usepackage{xeCJK}
-\setCJKmainfont[]{Noto Sans Mono CJK TC}
-\setCJKmonofont[]{Noto Sans Mono CJK TC}
+\setCJKmainfont[]{Noto Serif CJK TC}
+\setCJKmonofont[]{Noto Serif CJK TC}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
 \usepackage{anyfontsize}
 \usepackage{t1enc}
 \usepackage{listings}
+\usepackage{graphicx}
 \lstset{language=C++,basicstyle=\ttfamily}
 \begin{document}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[height=3cm]{logo.png}
+\end{figure}
 
 \begin{center}
 \textbf{\huge TODO競賽名稱}\\
@@ -21,10 +27,10 @@
 \rule{17cm}{2pt}\\
 \vspace{5mm}
 
-\huge 競賽規則\\
+\Large 競賽規則\\
 \end{center}
 
-\fontsize{14pt}{20pt}\selectfont
+\fontsize{12pt}{18pt}\selectfont
 \begin{enumerate}
     \setlength\itemsep{0.5pt}
     \item 競賽時間：202TODO/TODO/TODO TODO:TODO \textasciitilde \, TODO:TODO，共 TODO 小時。
