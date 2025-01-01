@@ -41,11 +41,12 @@ $endif$
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \usepackage{xeCJK}
-\setCJKmainfont[]{Noto Sans Mono CJK TC}
+\setCJKmainfont[]{Noto Serif CJK TC}
+\setmainfont{Times New Roman}
 %\setCJKmainfont[]{標楷體}
 \XeTeXlinebreaklocale "zh"
 \XeTeXlinebreakskip = 0pt plus 1pt
-\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\familydefault}{\rmdefault}
 
 \makeatletter
 \preto{\@verbatim}{\topsep=0pt \partopsep=0pt }
