@@ -8,6 +8,6 @@ on:
 
 jobs:
   run:
-    uses: TNFSH-Programming-Contest/tps-actions/.github/workflows/new-problem.yml@main
+    uses: CKEFGISC/tps-actions/.github/workflows/new-problem.yml@main
     with:
       count: ${{ fromJson(github.event.inputs.count) }}

@@ -26,8 +26,8 @@ on:
 
 jobs:
   run:
-    if: ${{ github.repository != 'TNFSH-Programming-Contest/tps-starter' }}
-    uses: TNFSH-Programming-Contest/tps-actions/.github/workflows/build-pdf.yml@main
+    if: ${{ github.repository != 'CKEFGISC/tps-starter' }}
+    uses: CKEFGISC/tps-actions/.github/workflows/build-pdf.yml@main
     with:
       problems: ${{ inputs.problems }}
       merge: ${{ inputs.merge && fromJson(inputs.merge) || false }}

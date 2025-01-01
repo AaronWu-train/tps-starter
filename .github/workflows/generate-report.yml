@@ -10,4 +10,4 @@ on:
 
 jobs:
   run:
-    uses: TNFSH-Programming-Contest/tps-actions/.github/workflows/generate-report.yml@main
+    uses: CKEFGISC/tps-actions/.github/workflows/generate-report.yml@main

@@ -10,5 +10,5 @@ on:
 
 jobs:
   run:
-    if: ${{ github.repository != 'TNFSH-Programming-Contest/tps-starter' }}
-    uses: TNFSH-Programming-Contest/tps-actions/.github/workflows/list-subtasks.yml@main
+    if: ${{ github.repository != 'CKEFGISC/tps-starter' }}
+    uses: CKEFGISC/tps-actions/.github/workflows/list-subtasks.yml@main
